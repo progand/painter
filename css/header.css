@@ -2,6 +2,17 @@ header{
 
 }
 
+header .logo {
+    text-align: center;
+}
+header .logo span {
+    font-family: fantasy;
+    font-size: 2em;
+    color: hsl(20, 100%, 20%);
+    text-shadow: 4px 3px 0px #FFD6A0, 9px 8px 0px rgba(0,0,0,0.15);
+    letter-spacing: normal;
+}
+
 .menu-toggler{
     background-color: #f6f6f6;
     border-color: #ddd;
@@ -54,11 +65,15 @@ menu a{
 }
 
 @media (min-width: 680px){
+    header .logo span{
+    font-size: 3em;
+        
+    }
     .menu-toggler{
         display: none;
     }
     menu{
-        display: block;
+        display: block !important;
     }
     menu a{
         display: inline-block;
