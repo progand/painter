@@ -1,0 +1,31 @@
+.gallery-elements{
+    margin: 0;
+
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+
+.gallery-elements li{
+    display: block;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-elements figure{
+
+}
+
+.gallery-elements figure img{   
+    border: 2px solid #BC6832;  box-shadow: 0px 0px 5px #BC6832; 
+    width: 100%;
+}
+
+.gallery-elements figcaption{
+
+}
+
+@media (min-width: 380px){
+    
+}

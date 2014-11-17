@@ -12,7 +12,9 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link type="text/css" href="css/content.css" rel="stylesheet"/>
         <link type="text/css" href="css/header.css" rel="stylesheet"/>
+        <link type="text/css" href="css/gallery.css" rel="stylesheet"/>
 
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
@@ -23,26 +25,62 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
-            <div class="logo">
-                <span>Анатолій Збаранський</span>
-            </div>
-            <a id="menu-toggler" class="menu-toggler" href="#">Меню</a>
-            <menu class="main-menu" label="Меню" type="toolbar">
-                <li><a href="#">Про художника</a></li>
-                <li><a href="#">Відгуки</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#">Статті</a></li>
-                <li><a href="#">Відео</a></li>
-            </menu>
-            <menu class="gallery-menu" label="Галерея" type="toolbar">
-                <li><a href="#">Морський пейзаж</a></li>
-                <li><a href="#">Пейзаж</a></li>
-                <li><a href="#">Портрет</a></li>
-                <li><a href="#">Етюд</a></li>
-                <li><a href="#">Копія</a></li>
-            </menu>
-        </header>
+        <article class="main">
+            <header>
+                <div class="logo">
+                    <span>Анатолій Збаранський</span>
+                </div>
+                <a id="menu-toggler" class="menu-toggler" href="#">Меню</a>
+                <menu class="main-menu" label="Меню" type="toolbar">
+                    <li><a href="#">Про художника</a></li>
+                    <li><a href="#">Відгуки</a></li>
+                    <li><a href="#">Контакти</a></li>
+                    <li><a href="#">Статті</a></li>
+                    <li><a href="#">Відео</a></li>
+                </menu>
+                <menu class="gallery-menu" label="Галерея" type="toolbar">
+                    <li><a href="#">Морський пейзаж</a></li>
+                    <li><a href="#">Пейзаж</a></li>
+                    <li><a href="#">Портрет</a></li>
+                    <li><a href="#">Етюд</a></li>
+                    <li><a href="#">Копія</a></li>
+                </menu>
+            </header>
+            <section class="content">
+                <h1>Морський пейзаж</h1>
+                <ul class="gallery-elements">
+                    <li>
+                        <a href="http://zbar.ho.ua/galleries/sea/medium/sea-261011-6.jpg" class="galleryimage" title="Морський пейзаж">
+                            <figure>
+                                <img src="http://zbar.ho.ua/galleries/sea/small/sea-261011-6.jpg" alt=" Морський пейзаж" class="smallimage">  
+                                <figcaption>Морський пейзаж</figcaption>
+                            </figure>
+                        </a>                               
+                    </li>
+                </ul>
+                <ul class="gallery-elements">
+                    <li>
+                        <a href="http://zbar.ho.ua/galleries/sea/medium/sea-261011-6.jpg" class="galleryimage" title="Морський пейзаж">
+                            <figure>
+                                <img src="http://zbar.ho.ua/galleries/sea/small/sea-261011-6.jpg" alt=" Морський пейзаж" class="smallimage">  
+                                <figcaption>Морський пейзаж</figcaption>
+                            </figure>
+                        </a>                               
+                    </li>
+                </ul>
+                <ul class="gallery-elements">
+                    <li>
+                        <a href="http://zbar.ho.ua/galleries/sea/medium/sea-261011-6.jpg" class="galleryimage" title="Морський пейзаж">
+                            <figure>
+                                <img src="http://zbar.ho.ua/galleries/sea/small/sea-261011-6.jpg" alt=" Морський пейзаж" class="smallimage">  
+                                <figcaption>Морський пейзаж</figcaption>
+                            </figure>
+                        </a>                               
+                    </li>
+                </ul>
+            </section>
+        </article>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>

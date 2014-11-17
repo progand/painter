@@ -1,0 +1,25 @@
+.main{
+    background-color: #FFD6A0;
+}
+
+.content{
+    margin: 20px;
+    
+}
+
+section h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: #580400;
+    text-shadow: 1px 1px 2px #8A3600;   
+}
+
+@media (min-width: 960px){
+    body{
+        background-image: url(/img/bg.jpg); 
+    }
+    .main{
+        width: 960px;
+        margin: 0 auto;
+    }
+}
