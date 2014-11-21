@@ -80,3 +80,12 @@ menu a{
         display: inline-block;
     }
 }
+
+
+footer{
+    background-color: #580400;
+    color: wheat;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0.7em 10px;
+}
