@@ -9,126 +9,69 @@
 .gallery-elements li{
     display: block;
 
-    text-align: center;
     margin-bottom: 20px;
     color: #00558A;
 }
 
-.gallery-elements li a {
+.gallery-image {
     color: #00558A;
+    text-decoration: none;
 }
+
 
 .gallery-elements figure{
 
 }
 
-.gallery-elements figure img{   
-    border: 2px solid #BC6832;  box-shadow: 0px 0px 5px #BC6832; 
+.gallery-elements figure img{      
     width: 100%;
 }
 
 .gallery-elements figcaption{
     line-height: 1.5em;
-  
-
+    padding: 6px 10px;
 }
 
-@media (min-width: 380px){
+.gallery-elements figcaption span{
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    display: block;    
+}
+
+.gallery-image-title{
+    margin-top: 6.25px;    
+    line-height: 1.1; 
+    text-rendering: optimizelegibility;
+    color: #565a5c;
+}
+.gallery-image-details{
+    color: #82888a;
+
+    font-size: 0.9em; 
+}
+
+
+@media (min-width: 411px){
     .gallery-elements{
-        width: 340px;
+        width: 371px;
         margin: 0 auto;
 
         overflow: hidden;
     }
 
     .gallery-elements li{
-
-
-        margin-bottom: 20px;
+        margin-bottom: 46px;
         display: inline-block;
         vertical-align: top;
-    }
+     
+}
 
     .gallery-elements li:nth-child(2n+1){
-        margin-right: 16px;
+        margin-right: 46px;
     }
 
     .gallery-elements figure img{
-        width: 156px;
-    }
-}
-
-@media (min-width: 400px){
-    .gallery-elements{
-        width: 350px;
-    }
-    .gallery-elements li{
-        margin-bottom: 30px;
-    }
-    .gallery-elements li:nth-child(2n+1){
-        margin-right: 26px;
-    }
-}
-
-@media (min-width: 540px){
-    .gallery-elements{
-        width: 520px;      
-    }
-
-    .gallery-elements li{
-        margin-bottom: 20px;        
-    }
-
-    .gallery-elements li:nth-child(2n+1){
-        margin-right: 0;
-    }
-
-    .gallery-elements li:nth-child(3n+1),
-    .gallery-elements li:nth-child(3n+2){
-        margin-right: 16px;
-    }
-}
-
-@media (min-width: 740px){
-    .gallery-elements{
-        width: 700px;      
-    }
-
-    .gallery-elements li{
-        margin-bottom: 20px;        
-    }
-
-    .gallery-elements li:nth-child(3n+1),
-    .gallery-elements li:nth-child(3n+2){
-        margin-right: 0;
-    }
-
-    .gallery-elements li:nth-child(4n+1),
-    .gallery-elements li:nth-child(4n+2),
-    .gallery-elements li:nth-child(4n+3){
-        margin-right: 16px;
-    }
-}
-
-@media (min-width: 960px){
-    .gallery-elements{
-        width: 880px;      
-    }
-
-    .gallery-elements li{
-        margin-bottom: 20px;        
-    }
-
-    .gallery-elements li:nth-child(4n+1),
-    .gallery-elements li:nth-child(4n+2),
-    .gallery-elements li:nth-child(4n+3){
-        margin-right: 0;
-    }
-
-    .gallery-elements li:nth-child(5n+1),
-    .gallery-elements li:nth-child(5n+2),
-    .gallery-elements li:nth-child(5n+3),
-    .gallery-elements li:nth-child(5n+4){
-        margin-right: 16px;
+        width: 160px;
     }
 }
