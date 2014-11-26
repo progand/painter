@@ -60,7 +60,7 @@ menu a{
 }
 
 .main-menu a{
-    color: #73635e;
+    color: #9D8C85;
     text-shadow: 0 1px 1px #000;
     font-weight: bold;
 }
@@ -78,8 +78,8 @@ menu a{
 
 @media (min-width: 680px){
     header .logo span{
-    font-size: 3em;
-        
+        font-size: 3em;
+
     }
     .menu-toggler{
         display: none;
@@ -88,13 +88,32 @@ menu a{
         display: block !important;
     }
     menu a{
-        display: inline-block;
-    
+        display: inline-block;    
         line-height: 50px;
-}
+
+        -webkit-transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+        -ms-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+    }
     menu li{
         display: inline-block;
     }
+
+    .main-menu a:hover,
+    .main-menu a:visited:hover{
+        background: #685C58;
+        color: #F3E9E5;
+    }
+    
+    .gallery-menu a:hover,
+    .gallery-menu a:visited:hover{
+        background: #B48A55;
+        color: #FFFBF5;
+    
+        text-shadow: none;
+}
 }
 
 
