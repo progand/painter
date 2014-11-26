@@ -61,6 +61,7 @@
         text-align: left;
     }
     .main-image figcaption table{
+    margin: 0 20px;
     }
     .other-gallery-images{
         display: inline-block;
