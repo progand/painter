@@ -25,6 +25,22 @@ header .logo span {
     max-width: none;
 }
 
+.menu-toggler-expanded{
+    background: #282321;
+    
+    color: #fbfbfb;
+    text-shadow: 0 1px 0 black;
+}
+
+.menu-toggler .show-on-expanded,
+.menu-toggler-expanded img{
+    display: none;
+}
+
+.menu-toggler-expanded .show-on-expanded{
+    display: inline-block;
+}
+
 menu{
     padding: 0;
     margin: 0;
