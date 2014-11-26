@@ -1,10 +1,17 @@
+body {
+    color: #300000;
+    margin: 0px;
+    font-size: 12pt;
+    font-family: Lucene, Helvetica, sans-serif;
+}
+
 .main{
     background-color: #FFD6A0;
 }
 
 .content{
     margin: 20px;
-    
+
 }
 
 section h1{
@@ -16,7 +23,7 @@ section h1{
 
 @media (min-width: 960px){
     body{
-        background-image: url(/img/bg.jpg); 
+        background-image: url(/images/bg.jpg); 
     }
     .main{
         width: 960px;
