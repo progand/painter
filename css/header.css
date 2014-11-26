@@ -46,18 +46,18 @@ menu a{
 .main-menu a{
     color: #73635e;
     text-shadow: 0 1px 1px #000;
+    font-weight: bold;
 }
 
 .gallery-menu{
     background-color: #e9e9e9;
 
-    border: 1px solid #ddd;    text-shadow: 0 1px 0 #eee;  font-weight: 700;
+    border: 1px solid #ddd;    text-shadow: 0 1px 0 #eee;  
 }
 
 .gallery-menu a{
     color: #333;
 
-    font-weight: bold;
 }
 
 @media (min-width: 680px){
@@ -88,4 +88,7 @@ footer{
     text-align: center;
     line-height: 1.5em;
     padding: 0.7em 10px;
+}
+
+footer address{
 }
