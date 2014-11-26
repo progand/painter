@@ -1,6 +1,9 @@
-(function(document, $, undefined){
-    $("#menu-toggler").on("click", function(evt){
+(function (document, $, undefined) {
+    $("#menu-toggler").on("click", function (evt) {
         evt.preventDefault();
-        $("menu").slideToggle();
+
+        $.when($("menu").slideToggle()).done(function () {
+            $("#menu-toggler").toggleClass("menu-toggler-expanded");
+        });
     });
 })(document, jQuery);
