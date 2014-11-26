@@ -22,12 +22,11 @@ header .logo span {
     line-height: 40px;
     width: auto;
     border: none;
-    max-width: none;
+    max-width: none;    
 }
 
 .menu-toggler-expanded{
-    background: #282321;
-    
+    background: #282321;    
     color: #fbfbfb;
     text-shadow: 0 1px 0 black;
 }
